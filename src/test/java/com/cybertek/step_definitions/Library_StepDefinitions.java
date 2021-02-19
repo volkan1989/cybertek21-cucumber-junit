@@ -17,43 +17,43 @@ public class Library_StepDefinitions {
     public void user_enters_librarian_username() {
         System.out.println("User enters LIBRARIAN username");
 
-        //Assert.fail("INTENTIONAL FAIL");
+        //Intentionally failing this step
+        //Assert.fail("INTENTIONAL FAIL!!!!!!!");
 
     }
+
     @When("user enter librarian password")
     public void user_enter_librarian_password() {
-        System.out.println("user enter LIBRARIAN password");
-    }
-
-    @Then("user should see librarian in the dashboard")
-    public void user_should_see_librarian_in_the_dashboard() {
-        System.out.println("user sees the dashboard");
+        System.out.println("User enters LIBRARIAN password");
     }
 
     @Then("user should see dashboard")
     public void userShouldSeeDashboard() {
-        System.out.println("user should see dashboard");
+        System.out.println("User sees dashboard");
     }
+
 
     @When("user enters student username")
     public void userEntersStudentUsername() {
-        System.out.println("user enters STUDENT username");
+
+        System.out.println("User enters STUDENT username");
+
     }
 
-    @And("user enter student password")
-    public void userEnterStudentPassword() {
-        System.out.println("user enter STUDENT password");
+    @And("user enters student password")
+    public void userEntersStudentPassword() {
+
+        System.out.println("User enters student password");
+
     }
 
     @When("user enters admin username")
     public void user_enters_admin_username() {
-        System.out.println("user enters ADMIN username");
+        System.out.println("User enters ADMIN username");
     }
 
-    @When("user enter admin password")
-    public void user_enter_admin_password() {
-        System.out.println("user enter ADMIN password");
+    @When("user enters admin password")
+    public void user_enters_admin_password() {
+        System.out.println("User enters ADMIN password");
     }
-
-
 }

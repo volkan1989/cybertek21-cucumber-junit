@@ -7,8 +7,9 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
 
-public class GoogleSearchPage {
-    public GoogleSearchPage(){
+public class GoogleSearch_Page {
+
+    public GoogleSearch_Page(){
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
@@ -20,4 +21,5 @@ public class GoogleSearchPage {
     // List of WebElements
     @FindBy(xpath = "//a[@class='pHiOh']")
     public List<WebElement> footerLinks;
+
 }
